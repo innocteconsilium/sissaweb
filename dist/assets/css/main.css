@@ -22,7 +22,7 @@
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -97,6 +97,174 @@
   color: #000;
 }
 
+.yk-carousel-caption {
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+.yk-carousel-caption h3 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.yk-carousel-caption h4 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.yk-carousel-caption h5 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+@media (min-width: 575px) {
+  .yk-carousel-caption h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .yk-carousel-caption h3 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 2048px) {
+  .yk-carousel-caption h3 {
+    font-size: 6rem;
+  }
+}
+
+#hacemosDeTusRetos .yk-carousel-caption #hacemosDeTusRetos-image {
+  height: 500px;
+  background-size: cover;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+#hacemosDeTusRetos .yk-carousel-caption h3 {
+  font-family: "Cabin", sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+#hacemosDeTusRetos .yk-carousel-caption h4 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+#hacemosDeTusRetos .yk-carousel-caption h5 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#hacemosDeTusRetos .yk-carousel-caption h6 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+#hacemosDeTusRetos .yk-carousel-caption h3 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#hacemosDeTusRetos .yk-carousel-caption h4 {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+#hacemosDeTusRetos .yk-carousel-caption h5 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+#hacemosDeTusRetos .yk-carousel-caption h6 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@media (min-width: 575px) {
+  #hacemosDeTusRetos .yk-carousel-caption {
+    padding-left: 4em;
+  }
+  #hacemosDeTusRetos .yk-carousel-caption h3 {
+    font-size: 4rem;
+  }
+  #hacemosDeTusRetos .yk-carousel-caption h4 {
+    font-size: 3.5rem;
+  }
+  #hacemosDeTusRetos .yk-carousel-caption h5 {
+    font-size: 3rem;
+  }
+  #hacemosDeTusRetos .yk-carousel-caption h6 {
+    font-size: 2.5rem;
+  }
+  #hacemosDeTusRetos .yk-carousel-caption #hacemosDeTusRetos-image {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  #hacemosDeTusRetos .yk-carousel-caption {
+    flex-direction: row-reverse !important;
+    justify-content: space-around !important;
+  }
+  #hacemosDeTusRetos .yk-carousel-caption #hacemosDeTusRetos-image {
+    height: 610px;
+    width: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #hacemosDeTusRetos .yk-carousel-caption h3 {
+    font-size: 4rem;
+  }
+  #hacemosDeTusRetos .yk-carousel-caption h4 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 2048px) {
+  #hacemosDeTusRetos .yk-carousel-caption h3 {
+    font-size: 6rem;
+  }
+}
+
+.yk-carousel-caption h3:first-child {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.yk-carousel-caption h3:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.yk-carousel-caption button {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.h-90vh {
+  height: 90vh !important;
+}
+
+.color-sissa-gray {
+  color: #5b5b5f;
+}
+
+.color-sissa-p-red {
+  color: #a62531;
+}
+
 body {
   background-color: #ffffff;
 }
@@ -104,4 +272,12 @@ body {
 body div {
   display: flex;
   color: #ffffff;
+}
+
+.nav-item {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-item a {
+  color: #a62531;
 }
