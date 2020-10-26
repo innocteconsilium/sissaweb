@@ -238,6 +238,180 @@
   }
 }
 
+#nosEnfocamosEnResolver .yk-carousel-caption img {
+  height: 202px;
+  height: 200px;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+#nosEnfocamosEnResolver .yk-carousel-caption h3 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+#nosEnfocamosEnResolver .yk-carousel-caption h4 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#nosEnfocamosEnResolver .yk-carousel-caption h5 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+#nosEnfocamosEnResolver .yk-carousel-caption h6 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+#nosEnfocamosEnResolver .yk-carousel-caption h3 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#nosEnfocamosEnResolver .yk-carousel-caption h4 {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+#nosEnfocamosEnResolver .yk-carousel-caption h5 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+#nosEnfocamosEnResolver .yk-carousel-caption h6 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@media (min-width: 575px) {
+  #nosEnfocamosEnResolver .yk-carousel-caption {
+    padding-left: 4em;
+  }
+  #nosEnfocamosEnResolver .yk-carousel-caption h3 {
+    font-size: 4rem;
+  }
+  #nosEnfocamosEnResolver .yk-carousel-caption h4 {
+    font-size: 3.5rem;
+  }
+  #nosEnfocamosEnResolver .yk-carousel-caption h5 {
+    font-size: 3rem;
+  }
+  #nosEnfocamosEnResolver .yk-carousel-caption h6 {
+    font-size: 1.5rem;
+  }
+  #nosEnfocamosEnResolver .yk-carousel-caption img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  #nosEnfocamosEnResolver .yk-carousel-caption {
+    flex-direction: row-reverse !important;
+    justify-content: space-around !important;
+  }
+  #nosEnfocamosEnResolver .yk-carousel-caption img {
+    height: 610px;
+    width: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #nosEnfocamosEnResolver .yk-carousel-caption h3 {
+    font-size: 4rem;
+  }
+  #nosEnfocamosEnResolver .yk-carousel-caption h4 {
+    font-size: 3.5rem;
+  }
+  #nosEnfocamosEnResolver .yk-carousel-caption h6 {
+    width: 60%;
+  }
+}
+
+@media (min-width: 2048px) {
+  #nosEnfocamosEnResolver .yk-carousel-caption h3 {
+    font-size: 6rem;
+  }
+}
+
+#ocupamosElPuesto .yk-carousel-caption h3 {
+  font-family: "Cabin", sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+#ocupamosElPuesto .yk-carousel-caption h4 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#ocupamosElPuesto .yk-carousel-caption h5 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+#ocupamosElPuesto .yk-carousel-caption h6 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+#ocupamosElPuesto .yk-carousel-caption h3 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#ocupamosElPuesto .yk-carousel-caption h4 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#ocupamosElPuesto .yk-carousel-caption h6 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@media (min-width: 575px) {
+  #ocupamosElPuesto .yk-carousel-caption h3 {
+    font-size: 5rem;
+  }
+  #ocupamosElPuesto .yk-carousel-caption h4 {
+    font-size: 3.5rem;
+  }
+  #ocupamosElPuesto .yk-carousel-caption h5 {
+    font-size: 3rem;
+  }
+  #ocupamosElPuesto .yk-carousel-caption h6 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #ocupamosElPuesto .yk-carousel-caption {
+    flex-direction: row-reverse !important;
+    justify-content: space-around !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  #ocupamosElPuesto .yk-carousel-caption h3 {
+    font-size: 6rem;
+  }
+  #ocupamosElPuesto .yk-carousel-caption h4 {
+    font-size: 4rem;
+  }
+  #ocupamosElPuesto .yk-carousel-caption h6 {
+    font-size: 2rem;
+  }
+}
+
 .yk-carousel-caption h3:first-child {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
@@ -263,6 +437,19 @@
 
 .color-sissa-p-red {
   color: #a62531;
+}
+
+.btn-sissa-primary {
+  margin-top: 30px;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #5b5b5f;
+}
+
+.rrss-btn svg {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 body {
