@@ -449,6 +449,11 @@
           animation-delay: 3s;
 }
 
+#ocupamosElPuesto .yk-carousel-caption a {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
 @media (min-width: 575px) {
   #ocupamosElPuesto .yk-carousel-caption h3 {
     font-size: 5rem;
@@ -752,51 +757,70 @@
   }
 }
 
-.section-text {
+#nosotros .section-text {
   flex-direction: column;
 }
 
-.section-text h3 {
+#nosotros .section-text h3 {
   font-weight: 650;
   font-size: 2.4rem;
   margin-bottom: 1.5rem;
 }
 
-p {
+#nosotros p {
   font-size: 1.75rem !important;
   font-weight: 350 !important;
   text-align: justify !important;
 }
 
-.separator-red-stripe {
+#nosotros .separator-red-stripe {
   height: 2.5rem;
   width: 100%;
   background-color: #a62531;
 }
 
-.separator-top {
+#nosotros .separator-top {
   height: 2.0rem;
 }
 
-.separator-top .row {
+#nosotros .separator-top .row {
   width: 100%;
   padding-top: 0.7rem;
   align-items: flex-start;
 }
 
-.separator-bottom {
+#nosotros .separator-bottom {
+  background-color: #ffffff;
   height: 2.0rem;
 }
 
-.separator-bottom .row {
+#nosotros .separator-bottom .row {
   width: 100%;
   padding-bottom: 0.7rem;
   align-items: flex-end;
 }
 
-.separator-line {
+#nosotros .separator-line {
   background-color: #ecedef;
   width: 100%;
+  height: 2px;
+}
+
+#nosotros .separator-bottom-lightgray {
+  background-color: #ecedef;
+  height: 2rem;
+}
+
+#nosotros .separator-bottom-lightgray .row {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0.7rem;
+  align-items: flex-end;
+}
+
+#nosotros .separator-bottom-lightgray .row .separator-line {
+  background-color: #dddddd;
   height: 2px;
 }
 
@@ -874,14 +898,100 @@ p {
   padding: 2rem;
 }
 
-#short-description-text {
-  color: #000;
-}
-
 @media (min-width: 768px) {
-  .section-text {
+  #nostotros-la-transformacion-es .container .row .section-text {
     padding-bottom: 6rem;
   }
+}
+
+#nostotros-organizaciones-relacionadas {
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 10vh !important;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid {
+  flex-wrap: wrap;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid .section-header {
+  background-color: #ffffff;
+  width: 100vw;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  box-shadow: 0px 4px 18px 6px #8888888c;
+  align-items: center;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid .section-header .section-text {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid .section-header .section-text h3 {
+  color: #a62531;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid .section-header .section-text p {
+  color: #5b5b5f;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid .content {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid .content .col-md-4 {
+  padding: 4rem 4rem 0rem 4rem;
+}
+
+#nostotros-socios-de-negocio {
+  background-color: #ecedef;
+  width: 100%;
+  min-height: 10vh !important;
+}
+
+#nostotros-socios-de-negocio .container-fluid {
+  flex-wrap: wrap;
+}
+
+#nostotros-socios-de-negocio .container-fluid .section-header {
+  background-color: #ffffff;
+  width: 100vw;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  box-shadow: 0px 4px 18px 6px #8888888c;
+  align-items: center;
+}
+
+#nostotros-socios-de-negocio .container-fluid .section-header .section-text {
+  align-items: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-basis: 85%;
+}
+
+#nostotros-socios-de-negocio .container-fluid .section-header .section-text h3 {
+  color: #a62531;
+}
+
+#nostotros-socios-de-negocio .container-fluid .section-header .section-text p {
+  color: #5b5b5f;
+}
+
+#nostotros-socios-de-negocio .container-fluid .content {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+#nostotros-socios-de-negocio .container-fluid .content .col-md-2 {
+  padding: 1rem;
 }
 
 #contacto-formulario {
@@ -959,6 +1069,10 @@ p {
   transform: scale(0.7);
   top: 0;
   left: 0;
+}
+
+#contacto-formulario .contacto-button-container {
+  justify-content: flex-end;
 }
 
 body {
