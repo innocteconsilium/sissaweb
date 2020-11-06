@@ -746,7 +746,7 @@
 }
 
 #eventos .img-container .row .event-small-container .event-small .event-caption .event-caption-text p {
-  font-size: 0.6rem;
+  font-size: 0.6rem !important;
   margin-bottom: 0px;
 }
 
@@ -1045,6 +1045,7 @@ p {
 .featured {
   flex-wrap: wrap;
   align-items: center;
+  padding-top: 3rem;
 }
 
 .featured .featured-caption {
@@ -1066,6 +1067,7 @@ p {
 .featured .featured-caption .caption-description {
   background-color: #a62531;
   padding-left: 1rem;
+  padding-right: 1.5rem;
 }
 
 .featured .featured-caption .featured-button {
@@ -1290,6 +1292,7 @@ section {
   color: #5b5b5f;
   font-size: 1.75rem;
   padding-top: 2.3rem;
+  flex-direction: column;
 }
 
 #partners .header-banner, .sectores .header-banner {
@@ -1338,4 +1341,68 @@ section {
 
 #partners .header-banner .header-banner-caption .container p, .sectores .header-banner .header-banner-caption .container p {
   color: #5b5b5f;
+}
+
+.sectores .header-banner .header-banner-title .container {
+  justify-content: flex-end;
+  padding-bottom: 1.75rem;
+}
+
+.red-text-bold {
+  color: #a62531;
+  font-weight: bold;
+}
+
+.portfolio {
+  background-color: #ecedef;
+  padding-top: 120px;
+}
+
+.portfolio .strip-background {
+  background-color: #a62531;
+  height: 180px;
+}
+
+.portfolio .img-container {
+  margin-top: -290px;
+  width: 100%;
+}
+
+.portfolio .img-container .row {
+  width: 100%;
+}
+
+.portfolio .img-container .row .col-lg-4 {
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio .img-container .row .col-lg-4 .btn-sissa-secondary {
+  width: 140px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.portfolio .img-container .row .col-lg-4 .img-caption {
+  color: #5b5b5f;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem !important;
+  margin-bottom: 0px;
+}
+
+.portfolio .portfolio-link {
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.portfolio .portfolio-link a {
+  padding: 0.5rem;
+  border-bottom: solid;
+  border-bottom-color: #a62531;
+  border-bottom-width: 2px;
+  color: #a62531;
+  font-size: 2rem;
+  font-weight: 500;
 }
