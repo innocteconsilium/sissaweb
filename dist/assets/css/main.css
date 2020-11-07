@@ -1296,6 +1296,9 @@ section {
   color: #a62531;
   white-space: nowrap;
   padding: 0px 1.5rem;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .honeycomb-section {
@@ -1322,6 +1325,7 @@ section {
   font-size: 1.75rem;
   padding-top: 2.3rem;
   flex-direction: column;
+  min-width: 50%;
 }
 
 #partners .header-banner, .sectores .header-banner, #blog .header-banner {
