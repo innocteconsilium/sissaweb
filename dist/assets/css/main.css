@@ -61,6 +61,22 @@
   text-decoration: none;
 }
 
+.sissa-round-input {
+  border: solid;
+  border-color: #a62531;
+  border-radius: 40px;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.input-icon {
+  position: absolute;
+  padding: 10px;
+  color: #a62531;
+  min-width: 50px;
+  text-align: left;
+}
+
 .rrss-btn svg {
   margin-right: 10px;
   margin-left: 10px;
@@ -1042,6 +1058,14 @@ p {
   margin-top: 2.5rem;
 }
 
+#blog .header-banner-caption .container {
+  align-items: flex-end;
+}
+
+#blog .header-banner-caption .container .sissa-round-input {
+  width: 100%;
+}
+
 .featured {
   flex-wrap: wrap;
   align-items: center;
@@ -1250,6 +1274,11 @@ section {
   background-color: #ecedef;
 }
 
+.separator-gray {
+  height: 2px;
+  background-color: #d4d4d4;
+}
+
 .section-nav {
   background-color: #ffffff;
   box-shadow: 0px 4px 18px 6px #8888888c;
@@ -1295,33 +1324,33 @@ section {
   flex-direction: column;
 }
 
-#partners .header-banner, .sectores .header-banner {
+#partners .header-banner, .sectores .header-banner, #blog .header-banner {
   flex-direction: column;
 }
 
-#partners .header-banner .header-banner-title, .sectores .header-banner .header-banner-title {
+#partners .header-banner .header-banner-title, .sectores .header-banner .header-banner-title, #blog .header-banner .header-banner-title {
   height: 60vh;
   color: #ffffff;
   background-size: cover;
 }
 
-#partners .header-banner .header-banner-title .container, .sectores .header-banner .header-banner-title .container {
+#partners .header-banner .header-banner-title .container, .sectores .header-banner .header-banner-title .container, #blog .header-banner .header-banner-title .container {
   flex-direction: column;
   justify-content: center;
   font-weight: 300;
 }
 
-#partners .header-banner .header-banner-title .container .title-1, .sectores .header-banner .header-banner-title .container .title-1 {
+#partners .header-banner .header-banner-title .container .title-1, .sectores .header-banner .header-banner-title .container .title-1, #blog .header-banner .header-banner-title .container .title-1 {
   font-size: 2rem;
   text-shadow: 2px 2px 4px #000000;
 }
 
-#partners .header-banner .header-banner-title .container .title-2, .sectores .header-banner .header-banner-title .container .title-2 {
+#partners .header-banner .header-banner-title .container .title-2, .sectores .header-banner .header-banner-title .container .title-2, #blog .header-banner .header-banner-title .container .title-2 {
   font-size: 4rem;
   text-shadow: 2px 2px 4px #000000;
 }
 
-#partners .header-banner .header-banner-caption, .sectores .header-banner .header-banner-caption {
+#partners .header-banner .header-banner-caption, .sectores .header-banner .header-banner-caption, #blog .header-banner .header-banner-caption {
   border-top: solid;
   border-color: #a62531;
   border-top-width: 0.5rem;
@@ -1330,20 +1359,20 @@ section {
   box-shadow: 0px 4px 18px 6px #8888888c;
 }
 
-#partners .header-banner .header-banner-caption .container, .sectores .header-banner .header-banner-caption .container {
+#partners .header-banner .header-banner-caption .container, .sectores .header-banner .header-banner-caption .container, #blog .header-banner .header-banner-caption .container {
   flex-direction: column;
 }
 
-#partners .header-banner .header-banner-caption .container h2, .sectores .header-banner .header-banner-caption .container h2 {
+#partners .header-banner .header-banner-caption .container h2, .sectores .header-banner .header-banner-caption .container h2, #blog .header-banner .header-banner-caption .container h2 {
   font-size: 1.5rem;
   color: #a62531;
 }
 
-#partners .header-banner .header-banner-caption .container p, .sectores .header-banner .header-banner-caption .container p {
+#partners .header-banner .header-banner-caption .container p, .sectores .header-banner .header-banner-caption .container p, #blog .header-banner .header-banner-caption .container p {
   color: #5b5b5f;
 }
 
-.sectores .header-banner .header-banner-title .container {
+.sectores .header-banner .header-banner-title .container, #blog .header-banner .header-banner-title .container {
   justify-content: flex-end;
   padding-bottom: 1.75rem;
 }
