@@ -81,16 +81,131 @@
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 20px;
+  width: 2.5rem;
+  cursor: pointer;
+  -webkit-animation: transform 2s;
+          animation: transform 2s;
+  z-index: 9999;
+}
+
+.rrss-btn svg:hover {
+  transform: scale(1.3);
+}
+
+.rrss-btn svg:hover .st0 {
+  fill: #a62531;
+}
+
+.hexagon-button-image {
+  cursor: pointer;
+}
+
+.hexagon-button-image:hover {
+  -webkit-animation: scaleanim 1s ease-in-out;
+          animation: scaleanim 1s ease-in-out;
+}
+
+@-webkit-keyframes scaleanim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleanim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.parallax-background {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sissa-font-gray {
   color: #666666;
 }
 
+.sissa-paragraph-1 {
+  font-size: 1.75rem !important;
+  font-weight: 350 !important;
+  text-align: justify !important;
+}
+
+.capital-text {
+  font-size: 1.3rem;
+  font-weight: 650;
+}
+
+.section-text h3 {
+  font-size: 1.5rem;
+}
+
+.section-text {
+  font-size: 1.2rem !important;
+}
+
+@media (min-width: 768px) {
+  .capital-text {
+    font-size: 2.5rem;
+  }
+  .section-text h3 {
+    font-size: 2.5rem;
+  }
+  .section-text {
+    font-size: 1.5rem !important;
+  }
+}
+
 .separator-red-stripe {
   height: 2.5rem;
   width: 100%;
   background-color: #a62531;
+}
+
+.simple-hex-image-row {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.simple-hex-image-row img {
+  width: 40%;
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+.simple-hex-image {
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .simple-hex-image {
+    padding: 2rem 2rem 0rem 2rem;
+  }
+  .simple-hex-image-row img {
+    width: 15%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .simple-hex-image {
+    padding: 2.5rem 2.5rem 0rem 2.5rem;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -190,7 +305,6 @@
 
 #short-description {
   background-image: url("../img/home/bg-1.png");
-  background-size: cover;
 }
 
 #short-description #description-container {
@@ -299,6 +413,11 @@
 #hacemosDeTusRetos .yk-carousel-caption h6 {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
+}
+
+#hacemosDeTusRetos #hacemosDeTusRetos-rrss {
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
 }
 
 @media (min-width: 575px) {
@@ -493,6 +612,11 @@
           animation-delay: 4s;
 }
 
+#ocupamosElPuesto #ocupamosElPuesto-rrss {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+
 @media (min-width: 575px) {
   #ocupamosElPuesto .yk-carousel-caption h3 {
     font-size: 5rem;
@@ -544,7 +668,6 @@
 
 #vertientes {
   background-image: url("../img/home/bg-1.png");
-  background-size: cover;
   padding-bottom: 30px;
 }
 
@@ -564,7 +687,6 @@
 }
 
 #vertientes .img-container {
-  margin-top: -200px;
   width: 100%;
 }
 
@@ -593,6 +715,12 @@
   background-color: #ffffff;
 }
 
+@media (min-width: 320px) {
+  #vertientes .img-container {
+    margin-top: -170px;
+  }
+}
+
 @media (min-width: 1200px) {
   .vertientes-text p {
     font-size: 1.2rem;
@@ -603,7 +731,6 @@
 
 #home-blog {
   background-image: url("../img/home/bg-1.png");
-  background-size: cover;
   padding-bottom: 30px;
 }
 
@@ -679,7 +806,6 @@
 
 #eventos {
   background-image: url("../img/home/bg-1.png");
-  background-size: cover;
   padding-bottom: 30px;
 }
 
@@ -801,15 +927,7 @@
 }
 
 #nosotros .section-text h3 {
-  font-weight: 650;
-  font-size: 2.4rem;
   margin-bottom: 1.5rem;
-}
-
-#nosotros p {
-  font-size: 1.75rem !important;
-  font-weight: 350 !important;
-  text-align: justify !important;
 }
 
 #nosotros .separator-top {
@@ -871,11 +989,6 @@
   border-left-style: solid;
   padding: 0px 0px 0px 1.2rem;
   color: #666666;
-}
-
-#nosotros-short-description .container .row #short-description-text .capital-text {
-  font-size: 2.5rem;
-  font-weight: 650;
 }
 
 #short-description-text {
@@ -975,10 +1088,7 @@
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-}
-
-#nostotros-organizaciones-relacionadas .container-fluid .content .col-md-4 {
-  padding: 4rem 4rem 0rem 4rem;
+  flex-wrap: nowrap;
 }
 
 #nostotros-socios-de-negocio {
@@ -1025,12 +1135,6 @@
 
 #nostotros-socios-de-negocio .container-fluid .content .col-md-2 {
   padding: 1rem;
-}
-
-p {
-  font-size: 1.75rem !important;
-  font-weight: 350 !important;
-  text-align: justify !important;
 }
 
 #partners .partner-section {
@@ -1192,6 +1296,7 @@ footer .separator-red-stripe {
 footer .container {
   justify-content: space-between;
   margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 
 footer .siguenos {
@@ -1207,6 +1312,7 @@ footer .siguenos p {
 
 footer .siguenos .footer-rrss-container {
   align-items: center;
+  flex-wrap: wrap;
 }
 
 footer .siguenos .footer-rrss-container .footer-rrss-logo {
@@ -1318,6 +1424,7 @@ section {
 
 .honeycomb-section .section-content {
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .honeycomb-section .section-content .section-text {
@@ -1326,6 +1433,11 @@ section {
   padding-top: 2.3rem;
   flex-direction: column;
   min-width: 50%;
+}
+
+.honeycomb-section .section-content .section-image img {
+  width: 95%;
+  height: auto;
 }
 
 #partners .header-banner, .sectores .header-banner, #blog .header-banner {

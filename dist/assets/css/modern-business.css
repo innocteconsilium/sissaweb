@@ -17,3 +17,7 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.navbar-toggler-icon {
+  background-image: none !important;
+}
