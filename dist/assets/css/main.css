@@ -166,13 +166,37 @@
 
 @media (min-width: 768px) {
   .capital-text {
+    font-size: 1.9rem;
+  }
+  .section-text h3 {
+    font-size: 1.9rem;
+  }
+  .section-text {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .capital-text {
+    font-size: 2.1rem;
+  }
+  .section-text h3 {
+    font-size: 2.1rem;
+  }
+  .section-text {
+    font-size: 1.75rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .capital-text {
     font-size: 2.5rem;
   }
   .section-text h3 {
     font-size: 2.5rem;
   }
   .section-text {
-    font-size: 1.5rem !important;
+    font-size: 2.1rem !important;
   }
 }
 
@@ -1146,11 +1170,14 @@
   flex-direction: column;
 }
 
+#partners .partner-section .container {
+  flex-wrap: wrap;
+}
+
 #partners .partner-section .container .description {
   flex-direction: column;
   flex-grow: 2;
   color: #5b5b5f;
-  padding-right: 5rem;
 }
 
 #partners .partner-section .container .description .logo {
@@ -1160,10 +1187,23 @@
 
 #partners .partner-section .container .imagen {
   width: 30%;
+  margin-left: 2rem;
 }
 
 #partners .partner-section .separator {
   margin-top: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  #partners .partner-section .container {
+    flex-wrap: nowrap;
+  }
+  #partners .partner-section .container .description {
+    padding-right: 5rem;
+  }
+  #partners .partner-section .container .imagen {
+    margin-left: 0px;
+  }
 }
 
 #blog .header-banner-caption .container {
@@ -1182,7 +1222,7 @@
 
 .featured .featured-caption {
   flex-direction: column;
-  width: 60%;
+  width: 100%;
 }
 
 .featured .featured-caption .caption-title {
@@ -1206,10 +1246,20 @@
   background-color: #a62531;
   justify-content: flex-end;
   padding-bottom: 0.85rem;
+  padding-right: 1rem;
 }
 
 .featured .featured-caption .featured-button a {
   font-weight: 500;
+}
+
+@media (min-width: 520px) {
+  .featured {
+    flex-wrap: nowrap;
+  }
+  .featured .featured-caption {
+    width: 60%;
+  }
 }
 
 #contacto-formulario {
@@ -1444,6 +1494,15 @@ section {
   height: auto;
 }
 
+@media (min-width: 768px) {
+  .honeycomb-section .section-content {
+    flex-wrap: nowrap;
+  }
+  .honeycomb-section .section-content .section-text {
+    max-width: 55%;
+  }
+}
+
 #partners .header-banner, .sectores .header-banner, #blog .header-banner {
   flex-direction: column;
 }
@@ -1466,8 +1525,14 @@ section {
 }
 
 #partners .header-banner .header-banner-title .container .title-2, .sectores .header-banner .header-banner-title .container .title-2, #blog .header-banner .header-banner-title .container .title-2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   text-shadow: 2px 2px 4px #000000;
+}
+
+@media (min-width: 520px) {
+  #partners .header-banner .header-banner-title .container .title-2, .sectores .header-banner .header-banner-title .container .title-2, #blog .header-banner .header-banner-title .container .title-2 {
+    font-size: 4rem;
+  }
 }
 
 #partners .header-banner .header-banner-caption, .sectores .header-banner .header-banner-caption, #blog .header-banner .header-banner-caption {
