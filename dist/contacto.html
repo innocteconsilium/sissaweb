@@ -123,12 +123,40 @@
   </nav>
 
   
+
+<span id="contacto">
+   
+<div  class="header-banner">
   
+  <!-- content -->
+  <div class="header-banner-title" style="background-image: url('assets/img/sectores/gobierno/banner1.png')">   
+    <div class="container"> 
+     
+      <span class="title-2"> CONTÁCTANOS</span>
+    </div>
+  </div>
+  <div class="header-banner-caption" >
+    <div class="container">
+      
+      <p  class="section-text sissa_p_red">
+        En <span class="red-text-bold" > SISSA Monitoring Integral queremos darte la mejor atención posible.         
+      </p>
+      <p class="section-text sissa_p_red">
+        Ayúdanos a responder el siguiente formulario para que puedas recibir un trato inmediato y personalizado.
+      </p>
+     
+    </div>
+  </div>  
   
+
+</div>
+
+  
+ 
   <section id="contacto-formulario">
     <div class="container">
       <form class="sissa-form">
-      <h2 class="text-center pt-4 color-sissa-gray">Contáctanos</h2>
+      <!-- <h2 class="text-center pt-4 color-sissa-gray">Contáctanos</h2> -->
         <div class="form-row">
           <div class="col-md-6">
             <div class="form-group">
@@ -146,25 +174,43 @@
               <label for="subject">Asunto</label>
               <span class="input-highlight"></span>
             </div>
-          </div>
-          <div class="col-md-6">
+
+
+
             <div class="form-group">
               <textarea name="message" id="message" class="form-control"></textarea>
               <label for="message">Message</label>
               <span class="input-highlight"></span>
             </div>
+            <div class=" mx-auto mt-3 contacto-button-container">
+              <button type="submit" class="btn-sissa-secondary">ENVIAR</button>
+            </div>
+          </div>
+
+        
+
+          <div class="col-md-6">
+            <div id="map"></div>
           </div>
         </div>
-        <div class="col-md-12 mx-auto mt-3 contacto-button-container">
-          <button type="submit" class="btn-sissa-secondary">ENVIAR</button>
-        </div>
+        
       </form>
+
+
+      <!-- <div id="map"></div> -->
     </div>
 </section>
 
 
 
+</span>
+
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+
 <script src="assets/js/contacto/form-animations.js"></script> 
+<script src="assets/js/contacto/map.js"></script> 
+
 
 
   
