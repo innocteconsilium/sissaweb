@@ -207,6 +207,16 @@
   background-color: #a62531;
 }
 
+.right-border-thin-gray {
+  border-right: none;
+}
+
+@media (min-width: 768px) {
+  .right-border-thin-gray {
+    border-right: solid 2px #ecedef;
+  }
+}
+
 .simple-hex-image-row {
   flex-wrap: wrap;
   justify-content: center;
@@ -1289,6 +1299,13 @@
   }
 }
 
+.marker {
+  background-image: url("../img/contacto/sissa-marker4.png");
+  background-size: cover;
+  width: 45px;
+  height: 150px;
+}
+
 #contacto-formulario {
   background: linear-gradient(to bottom, #f6f6f6, #e9e9e9);
   min-height: 100vh;
@@ -1373,6 +1390,53 @@
 
 #contacto-formulario #message {
   min-height: 10rem;
+}
+
+#contacto #informacion {
+  min-height: 50vh !important;
+}
+
+.contacto-informacion {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.contacto-informacion .row .col-md-4 {
+  flex-direction: column;
+  padding: 1rem 3.5rem;
+  align-items: center;
+}
+
+.contacto-informacion .row .col-md-4 .contacto-informacion-icono-caption-container {
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto-informacion .row .col-md-4 .contacto-informacion-icono-caption-container .contacto-icono svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.contacto-informacion .row .col-md-4 .contacto-informacion-icono-caption-container .contacto-informacion-titulo {
+  color: #5b5b5f;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.contacto-informacion .row .col-md-4 .contacto-informacion-subtitulo {
+  color: #5b5b5f;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.contacto-informacion .row .col-md-4 .contacto-informacion-texto {
+  color: #5b5b5f;
+  font-size: 1rem;
+  text-align: center;
 }
 
 footer .separator-red-stripe {
