@@ -1,0 +1,781 @@
+#nosotros .section-text {
+  flex-direction: column;
+}
+
+#nosotros .section-text h3 {
+  margin-bottom: 1.5rem;
+}
+
+#nosotros .separator-top {
+  height: 2.0rem;
+}
+
+#nosotros .separator-top .row {
+  width: 100%;
+  padding-top: 0.7rem;
+  align-items: flex-start;
+}
+
+#nosotros .separator-bottom {
+  background-color: #ffffff;
+  height: 2.0rem;
+}
+
+#nosotros .separator-bottom .row {
+  width: 100%;
+  padding-bottom: 0.7rem;
+  align-items: flex-end;
+}
+
+#nosotros .separator-line {
+  background-color: #ecedef;
+  width: 100%;
+  height: 2px;
+}
+
+#nosotros .separator-bottom-lightgray {
+  background-color: #ecedef;
+  height: 2rem;
+}
+
+#nosotros .separator-bottom-lightgray .row {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0.7rem;
+  align-items: flex-end;
+}
+
+#nosotros .separator-bottom-lightgray .row .separator-line {
+  background-color: #dddddd;
+  height: 2px;
+}
+
+#nosotros-short-description {
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 10vh !important;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+#nosotros-short-description .container .row #short-description-text {
+  border-left-color: #a62531;
+  border-left-width: 0.5rem;
+  border-left-style: solid;
+  padding: 0px 0px 0px 1.2rem;
+  color: #666666;
+}
+
+#short-description-text {
+  color: #000;
+}
+
+#nosotros-ante-cada-reto-una-solucion {
+  background-image: url("../img/nosotros/ante-cada-reto-background.png");
+  background-size: cover;
+  width: 100%;
+  min-height: 10vh !important;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+#nosotros-ante-cada-reto-una-solucion .container .row {
+  align-items: flex-end;
+}
+
+#nosotros-ante-cada-reto-una-solucion .container .row .section-text {
+  color: #666666;
+}
+
+#nosotros-ante-cada-reto-una-solucion .container .row .section-text h3 {
+  color: #a62531;
+}
+
+#nosotros-ante-cada-reto-una-solucion .container .row .col-md-3 img {
+  padding: 2rem;
+}
+
+#short-description-text {
+  color: #000;
+}
+
+#nostotros-la-transformacion-es {
+  background-color: #a62531;
+  width: 100%;
+  min-height: 10vh !important;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+#nostotros-la-transformacion-es .container .row {
+  align-items: flex-end;
+}
+
+#nostotros-la-transformacion-es .container .row .section-text {
+  color: #ffffff !important;
+}
+
+#nostotros-la-transformacion-es .container .row .col-md-3 img {
+  padding: 2rem;
+}
+
+@media (min-width: 768px) {
+  #nostotros-la-transformacion-es .container .row .section-text {
+    padding-bottom: 6rem;
+  }
+}
+
+#nostotros-organizaciones-relacionadas {
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 10vh !important;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid {
+  flex-wrap: wrap;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid .section-header {
+  background-color: #ffffff;
+  width: 100vw;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  box-shadow: 0px 4px 18px 6px #8888888c;
+  align-items: center;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid .section-header .section-text {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid .section-header .section-text h3 {
+  color: #a62531;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid .section-header .section-text p {
+  color: #5b5b5f;
+}
+
+#nostotros-organizaciones-relacionadas .container-fluid .content {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: nowrap;
+}
+
+#nostotros-socios-de-negocio {
+  background-color: #ecedef;
+  width: 100%;
+  min-height: 10vh !important;
+}
+
+#nostotros-socios-de-negocio .container-fluid {
+  flex-wrap: wrap;
+}
+
+#nostotros-socios-de-negocio .container-fluid .section-header {
+  background-color: #ffffff;
+  width: 100vw;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  box-shadow: 0px 4px 18px 6px #8888888c;
+  align-items: center;
+}
+
+#nostotros-socios-de-negocio .container-fluid .section-header .section-text {
+  align-items: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-basis: 85%;
+}
+
+#nostotros-socios-de-negocio .container-fluid .section-header .section-text h3 {
+  color: #a62531;
+}
+
+#nostotros-socios-de-negocio .container-fluid .section-header .section-text p {
+  color: #5b5b5f;
+}
+
+#nostotros-socios-de-negocio .container-fluid .content {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+#nostotros-socios-de-negocio .container-fluid .content .col-md-2 {
+  padding: 1rem;
+}
+
+#reducimos-riesgos-slide {
+  background-image: url("../../img/nosotros/sissa-monitoring/banner-m1.png");
+}
+
+@media (min-width: 768px) {
+  #reducimos-riesgos-slide {
+    background-image: url("../../img/nosotros/sissa-monitoring/banner1.png");
+  }
+}
+
+#reducimos-riesgos-text {
+  padding-left: 2rem;
+}
+
+#reducimos-riesgos-text .gray-bold-title1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#reducimos-riesgos-text .red-thin-title1 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+#reducimos-riesgos-text .red-bold-title1 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#reducimos-riesgos-text .red-rrss-container {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@media (min-width: 575px) {
+  #reducimos-riesgos-text .yk-carousel-caption {
+    padding-left: 4em;
+  }
+  #reducimos-riesgos-text .yk-carousel-caption h3 {
+    font-size: 4rem;
+  }
+  #reducimos-riesgos-text .yk-carousel-caption h4 {
+    font-size: 3.5rem;
+  }
+  #reducimos-riesgos-text .yk-carousel-caption h5 {
+    font-size: 3rem;
+  }
+  #reducimos-riesgos-text .yk-carousel-caption h6 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #reducimos-riesgos-text #reducimos-riesgos-text {
+    padding-left: 5rem;
+  }
+  #reducimos-riesgos-text .yk-carousel-caption {
+    flex-direction: row-reverse !important;
+    justify-content: space-around !important;
+  }
+  #reducimos-riesgos-text .yk-carousel-caption #hacemosDeTusRetos-image {
+    height: 610px;
+    width: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #reducimos-riesgos-text .yk-carousel-caption h3 {
+    font-size: 4rem;
+  }
+  #reducimos-riesgos-text .yk-carousel-caption h4 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 2048px) {
+  #reducimos-riesgos-text .yk-carousel-caption h3 {
+    font-size: 6rem;
+  }
+}
+
+#reducimos-riesgos-text .gray-bold-title1 {
+  font-size: 7.5vw;
+}
+
+#reducimos-riesgos-text .red-thin-title1 {
+  font-size: 9vw;
+}
+
+#reducimos-riesgos-text .red-bold-title1 {
+  font-size: 17.5vw;
+}
+
+@media (min-width: 768px) {
+  #reducimos-riesgos-text .gray-bold-title1 {
+    font-size: 3vw;
+  }
+  #reducimos-riesgos-text .red-thin-title1 {
+    font-size: 3.6vw;
+  }
+  #reducimos-riesgos-text .red-bold-title1 {
+    font-size: 7vw;
+  }
+}
+
+#nos-especializamos-slide {
+  background-image: url("../../img/nosotros/sissa-monitoring/banner2.png");
+}
+
+@media (min-width: 768px) {
+  #nos-especializamos-slide {
+    background-image: url("../../img/nosotros/sissa-monitoring/banner2.png");
+  }
+}
+
+#nos-especializamos-text {
+  padding-right: 2rem;
+}
+
+#nos-especializamos-text .red-background-title {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+#nos-especializamos-text .title1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#nos-especializamos-text .title2 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+#nos-especializamos-text .title3 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@media (min-width: 768px) {
+  #nos-especializamos-slide .yk-carousel-caption {
+    align-items: flex-end;
+  }
+  #nos-especializamos-slide #nos-especializamos-text {
+    padding-right: 5rem;
+  }
+  #nos-especializamos-slide #nos-especializamos-text .red-background-title {
+    font-size: 2.5vw;
+    padding: 0px 10px;
+  }
+  #nos-especializamos-slide #nos-especializamos-text .title1 {
+    font-size: 3.3vw;
+    font-weight: 500;
+  }
+  #nos-especializamos-slide #nos-especializamos-text .title2 {
+    font-size: 4.1vw;
+    font-weight: 500;
+  }
+  #nos-especializamos-slide #nos-especializamos-text .title3 {
+    font-size: 1.6vw;
+  }
+}
+
+#reducimos-slide {
+  background-image: url("../../img/nosotros/sissa-monitoring/banner3.png");
+}
+
+@media (min-width: 768px) {
+  #reducimos-slide {
+    background-image: url("../../img/nosotros/sissa-monitoring/banner3.png");
+  }
+}
+
+#reducimos-text {
+  padding-left: 2rem;
+  align-items: center;
+}
+
+#reducimos-text .gray-bold-title1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#reducimos-text .red-thin-title1 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+#reducimos-text .red-bold-title1 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#reducimos-text .red-rrss-container {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+#reducimos-text .gray-bold-title1 {
+  font-size: 9vw;
+}
+
+#reducimos-text .red-thin-title1 {
+  font-size: 10vw;
+}
+
+#reducimos-text .red-bold-title1 {
+  font-size: 15vw;
+}
+
+@media (min-width: 768px) {
+  #reducimos-text .gray-bold-title1 {
+    font-size: 3.3vw;
+  }
+  #reducimos-text .red-thin-title1 {
+    font-size: 3.6vw;
+  }
+  #reducimos-text .red-bold-title1 {
+    font-size: 7vw;
+  }
+}
+
+#somos-aliados-slide {
+  background-image: url("../../img/nosotros/sissa-digital/banner-m1.png");
+}
+
+@media (min-width: 768px) {
+  #somos-aliados-slide {
+    background-image: url("../../img/nosotros/sissa-digital/banner1.png");
+  }
+}
+
+#somos-aliados-text {
+  padding-left: 2rem;
+}
+
+#somos-aliados-text .gray-bold-title1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#somos-aliados-text .red-thin-title1 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+#somos-aliados-text .red-bold-title1 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#somos-aliados-text .red-rrss-container {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+#somos-aliados-text .gray-bold-title1 {
+  font-size: 7.5vw;
+}
+
+#somos-aliados-text .red-thin-title1 {
+  font-size: 9vw;
+}
+
+#somos-aliados-text .red-bold-title1 {
+  font-size: 17.5vw;
+}
+
+@media (min-width: 768px) {
+  #somos-aliados-text .gray-bold-title1 {
+    font-size: 3.4vw;
+  }
+  #somos-aliados-text .red-thin-title1 {
+    font-size: 2.5vw;
+  }
+  #somos-aliados-text .red-bold-title1 {
+    font-size: 7vw;
+  }
+}
+
+@media (min-width: 768px) {
+  #somos-aliados-text {
+    padding-left: 5rem;
+    padding-top: 5rem;
+  }
+}
+
+#desarrollamos-soluciones-slide {
+  background-image: url("../../img/nosotros/sissa-digital/banner2.png");
+}
+
+@media (min-width: 768px) {
+  #desarrollamos-soluciones-slide {
+    background-image: url("../../img/nosotros/sissa-digital/banner2.png");
+  }
+}
+
+#desarrollamos-soluciones-text {
+  padding-right: 2rem;
+  align-items: center;
+}
+
+#desarrollamos-soluciones-text .red-background-title {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+#desarrollamos-soluciones-text .title1 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+#desarrollamos-soluciones-text .title2 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#desarrollamos-soluciones-text .yk-carousel-caption {
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  #desarrollamos-soluciones-text {
+    padding-right: 5rem;
+  }
+  #desarrollamos-soluciones-text .red-background-title {
+    font-size: 1.7vw;
+    text-align: center;
+    max-width: 60vw;
+    padding: 0px 50px;
+  }
+  #desarrollamos-soluciones-text .title1 {
+    font-size: 3.3vw;
+    font-weight: 500;
+  }
+  #desarrollamos-soluciones-text .title2 {
+    font-size: 3vw;
+    font-weight: 500;
+  }
+  #desarrollamos-soluciones-text .title3 {
+    font-size: 1.6vw;
+  }
+}
+
+#mejoramos-slide {
+  background-image: url("../../img/nosotros/sissa-infraestructura/banner-m1.png");
+}
+
+@media (min-width: 768px) {
+  #mejoramos-slide {
+    background-image: url("../../img/nosotros/sissa-infraestructura/banner1.png");
+  }
+}
+
+#mejoramos-text {
+  align-items: flex-end;
+  padding-right: 4rem;
+}
+
+#mejoramos-text .gray-thin-title1 {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+#mejoramos-text .gray-bold-title1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#mejoramos-text .title3 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+#mejoramos-text .red-background-title {
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
+}
+
+#mejoramos-text .red-thin-title1 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#mejoramos-text .red-rrss-container {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+#mejoramos-text .gray-thin-title1 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+#mejoramos-text .gray-bold-title1 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+#mejoramos-text .title3 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+#mejoramos-text .red-background-title {
+  font-size: 3vw;
+  text-align: center;
+}
+
+#mejoramos-text .red-thin-title1 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #mejoramos-text .gray-thin-title1 {
+    font-size: 3vw;
+    width: 40%;
+  }
+  #mejoramos-text .gray-bold-title1 {
+    font-size: 3vw;
+    width: 40%;
+  }
+  #mejoramos-text .title3 {
+    font-size: 2.8vw;
+    width: 40%;
+  }
+  #mejoramos-text .red-background-title {
+    font-size: 3vw;
+    width: 40%;
+  }
+  #mejoramos-text .red-thin-title1 {
+    font-size: 2.8vw;
+    width: 40%;
+  }
+}
+
+#disenamos-soluciones-slide {
+  background-image: url("../../img/nosotros/sissa-infraestructura/banner2.png");
+}
+
+@media (min-width: 768px) {
+  #disenamos-soluciones-slide {
+    background-image: url("../../img/nosotros/sissa-infraestructura/banner2.png");
+  }
+}
+
+#disenamos-soluciones-text {
+  padding-right: 2rem;
+  align-items: center;
+}
+
+#disenamos-soluciones-text .title1 {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+#disenamos-soluciones-text .title2 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+#disenamos-soluciones-text .title3 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+#disenamos-soluciones-text .yk-carousel-caption {
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  #disenamos-soluciones-text {
+    padding-right: 5rem;
+  }
+  #disenamos-soluciones-text .title1 {
+    font-size: 3.3vw;
+    font-weight: 500;
+  }
+  #disenamos-soluciones-text .title2 {
+    font-size: 3vw;
+    font-weight: 300;
+  }
+  #disenamos-soluciones-text .title3 {
+    font-size: 2.8vw;
+  }
+}
+
+#implementamos-slide {
+  background-image: url("../../img/nosotros/sissa-infraestructura/banner3.png");
+}
+
+@media (min-width: 768px) {
+  #implementamos-slide {
+    background-image: url("../../img/nosotros/sissa-infraestructura/banner3.png");
+  }
+}
+
+#implementamos-text {
+  padding-left: 2rem;
+  align-items: center;
+}
+
+#implementamos-text .gray-thin-title1 {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+#implementamos-text .title2 {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+#implementamos-text .gray-bold-title1 {
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
+}
+
+#implementamos-text .red-bold-title1 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+#implementamos-text .red-rrss-container {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+#implementamos-text .gray-thin-title1 {
+  font-size: 2.8vw;
+  text-align: center;
+}
+
+#implementamos-text .title2 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+#implementamos-text .gray-bold-title1 {
+  font-size: 1.7vw;
+  text-align: center;
+}
+
+#implementamos-text .red-bold-title1 {
+  font-size: 3vw;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #implementamos-text .gray-thin-title1 {
+    font-size: 2.8vw;
+    text-align: center;
+  }
+  #implementamos-text .title2 {
+    font-size: 3vw;
+    text-align: center;
+  }
+  #implementamos-text .gray-bold-title1 {
+    font-size: 1.7vw;
+    text-align: center;
+  }
+  #implementamos-text .red-bold-title1 {
+    font-size: 3vw;
+    text-align: center;
+  }
+}
